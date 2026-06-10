@@ -9,7 +9,6 @@ export const getEquipos = async (req, res) => {
         res.status(500).json({message: error.message});
     }   
 };
-
 export const getEquipo = async (req, res) => {  
     try {
         const {id} = req.params;
@@ -24,7 +23,6 @@ export const getEquipo = async (req, res) => {
         res.status(500).json({message: error.message});
     }
 };
-
 export const createEquipo = async (req, res) => {  
     try {
         const {nombre, ciudad, estadio, fundacion} = req.body;
