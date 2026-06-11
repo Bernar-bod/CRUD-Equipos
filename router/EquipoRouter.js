@@ -2,6 +2,7 @@ import {getEquipos} from '../controller/EquipoController.js';
 import {getEquipo} from '../controller/EquipoController.js';
 import {createEquipo} from '../controller/EquipoController.js';
 
+// Rutas API para equipos
 import {Router} from 'express';
 const router = Router();
 
