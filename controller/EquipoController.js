@@ -26,6 +26,8 @@ export const getEquipo = async (req, res) => {
         res.status(500).json({message: error.message});
     }
 };
+
+// Metodo createEquipo: crear un nuevo equipo
 export const createEquipo = async (req, res) => {  
     try {
         const {nombre, ciudad, estadio, fundacion} = req.body;
