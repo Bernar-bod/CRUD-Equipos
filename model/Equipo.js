@@ -2,6 +2,7 @@
 import { DataTypes } from 'sequelize';
 import { sequelize } from '../db/conexion.js';
 
+// Modelo Equipo
   export const Equipo = sequelize.define(
   'Equipos',
   {
