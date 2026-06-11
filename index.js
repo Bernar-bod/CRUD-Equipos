@@ -2,6 +2,7 @@ import express from 'express';
 import { sequelize } from './db/conexion.js';
 import equipoRouter from './router/EquipoRouter.js';
 
+// Configuracion inicial de Express y Sequelize
 const app = express()
 const port = 3000
 app.use(express.json());
