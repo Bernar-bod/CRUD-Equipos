@@ -8,8 +8,10 @@ export const getEquipos = async (req, res) => {
     }
     catch (error) {
         res.status(500).json({message: error.message});
-    }   
+    }
 };
+
+// Metodo getEquiposById: obtener equipo por id
 export const getEquipo = async (req, res) => {  
     try {
         const {id} = req.params;
