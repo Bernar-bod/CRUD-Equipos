@@ -1,5 +1,6 @@
 import { Equipo } from '../model/Equipo.js';
 
+// Metodo getAll: obtener todos los equipos
 export const getEquipos = async (req, res) => {     
     try {
         const equipos = await Equipo.findAll();
